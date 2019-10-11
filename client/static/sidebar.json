@@ -1,0 +1,58 @@
+{
+    "aside": [
+        {
+            "bookId": 1,
+            "bookName": "Notes",
+            "listClass": "lists parents pcursor",
+            "iconClass": "fas fa-file-alt"
+        },
+        {
+            "bookId": 2,
+            "bookName": "Notebooks",
+            "listClass": "unclick parents",
+            "iconClass": "fas fa-book"
+        },
+        {
+            "bookId": 3,
+            "bookName": "Trash",
+            "listClass": "pcursor lists parents",
+            "iconClass": "fas fa-trash-alt"
+        },
+        {
+            "bookId": 4,
+            "bookName": "Status",
+            "listClass": "unclick parents",
+            "iconClass": "fas fa-tasks"
+        },
+        {
+            "bookId": 5,
+            "bookName": "Active",
+            "listClass": "stat lists pcursor",
+            "iconClass": "far fa-circle"
+        },
+        {
+            "bookId": 6,
+            "bookName": "On hold",
+            "listClass": "stat lists pcursor",
+            "iconClass": "far fa-pause-circle"
+        },
+        {
+            "bookId": 7,
+            "bookName": "Completed",
+            "listClass": "stat lists pcursor",
+            "iconClass": "fas fa-check-circle"
+        },
+        {
+            "bookId": 8,
+            "bookName": "Dropped",
+            "listClass": "stat lists pcursor",
+            "iconClass": "fas fa-times-circle"
+        },
+        {
+            "bookId": 9,
+            "bookName": "Tags",
+            "listClass": "unclick parents",
+            "iconClass": "fas fa-tags"
+        }
+    ]
+}

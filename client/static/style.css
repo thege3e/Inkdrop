@@ -1,0 +1,88 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  flex: 1 1 auto;
+}
+
+/* Sidebar selector class */
+.onSelect {
+  background: rgb(50, 50, 47);
+}
+
+#2 {
+  pointer-events: none;
+}
+
+.fa-pause-circle {
+  font-size: 13px;
+  color: rgb(192, 98, 10);
+}
+
+.fa-check-circle {
+  font-size: 13px;
+  color: rgb(7, 122, 26);
+}
+
+.fa-circle {
+  font-size: 13px;
+}
+
+.fa-times-circle {
+  font-size: 13px;
+  color: rgb(197, 78, 63);
+}
+.stat {
+  padding: 1.5px 0 1.5px 5px;
+}
+
+.pcursor {
+  cursor: pointer;
+}
+div.lists {
+  color: rgb(223, 223, 223);
+}
+.unclick {
+  color: rgb(143, 143, 143);
+}
+
+#blueHover:hover {
+  color: rgba(73, 197, 255, 0.8);
+  cursor: pointer;
+}
+
+/* Style of options of notebooks */
+.bookPopper {
+  margin-left: auto;
+  order: 2;
+  right: 6px;
+  top: 2px;
+}
+.bookPopper .tooltip.bottom .tooltip-inner {
+  border: 1px solid rgb(151, 151, 151);
+}
+
+/* Style of CKeditor5 */
+.ck-editor {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.ck-content {
+  flex: 1 1 auto;
+}
+
+.ck.ck-editor__main {
+  height: 500px;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
